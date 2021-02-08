@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "636318167937",
+    "project_id": "jona-99792",
+    "storage_bucket": "jona-99792.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636318167937:android:9d5702fef07e20aa976e80",
+        "android_client_info": {
+          "package_name": "com.alphacsoft.jona_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636318167937-i2f1ilfeovenugh66c1m0dt277m45oqv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alphacsoft.jona_app",
+            "certificate_hash": "b46353cd7bb38c1eb54b45f8f42ea65020b334d2"
+          }
+        },
+        {
+          "client_id": "636318167937-bh3qch0he5vs7a9iplle3ds7fa79fsga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkkOPArOlQ6-zPGuXbR-xFcMGYVk3rRsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636318167937-bh3qch0he5vs7a9iplle3ds7fa79fsga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
