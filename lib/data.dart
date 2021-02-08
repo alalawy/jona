@@ -46,7 +46,7 @@ List<StudyInfo> study = [
             ttl: "Dusun Yaman, 10 Februari 1998",
             iconImage: "assets/ELA.jpeg",
             education: "S1 Pendidikan Bahasa Inggris, Universitas Hamzanwadi",
-            phone: "081936855372",
+            phone: "6281936855372",
             experience: [
               "Guru Bahasa Inggris MA NW Praida Kroya (2020-Sekarang)",
               "Bendahara Panitia Kegiatan ETC UKM English Speaking Club (2019 dan 2020)",
@@ -57,7 +57,7 @@ List<StudyInfo> study = [
             ttl: "Keruak, 29 Agustus 1999",
             iconImage: "assets/adnin.jpg",
             education: "S1 Pendidikan Bahasa Inggris, Universitas Hamzanwadi",
-            phone: "081907430956",
+            phone: "6281907430956",
             experience: [
               "Tutor Bahasa Inggris Clinic English Camp(CEC) (2015-2016)",
               "Tutor Bahasa Inggris Madrasah Diniyah AL-Majidiyah(MADINA)  (2016-Sekarang)",
@@ -76,7 +76,7 @@ List<StudyInfo> study = [
             ttl: "Lendang Baiduri, 27 Juni 1999",
             iconImage: "assets/YuniatinAndina.jpg",
             education: "S1 Pendidikan Ekonomi, Universitas Hamzanwadi",
-            phone: "087863400907",
+            phone: "6287854271882",
             experience: [
               "Magang di SMAN 1 Selong",
               "Panitia MOK BEM FISE (2019-2020)",
@@ -87,7 +87,7 @@ List<StudyInfo> study = [
             ttl: "Bogor, 09 Februari 2000",
             iconImage: "assets/FebriantySukma.jpeg",
             education: "S1 Pendidikan Ekonomi, Universitas Hamzanwadi",
-            phone: "087863400907",
+            phone: "6287863400907",
             experience: [
               "Magang di SMAN 1 SAKRA BARAT",
               "Panitia MOK BEM FISE (2019-2020)",

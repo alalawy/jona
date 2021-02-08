@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:jona_app/data.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'constants.dart';
 
 class DetailMentor extends StatelessWidget {
@@ -170,7 +171,9 @@ class DetailMentor extends StatelessWidget {
                                 return cardPaket(
                                     listPaket[indexPaket]["bulan"].toString(),
                                     listPaket[indexPaket]["pertemuan"].toString(),
-                                    listPaket[indexPaket]["harga"].toString());
+                                    listPaket[indexPaket]["harga"].toString(),
+                                    studyInfo.mentor[index].nama.toString(),
+                                    studyInfo.mentor[index].phone.toString());
                               }),
                         ),
                         SizedBox(
@@ -222,10 +225,15 @@ class DetailMentor extends StatelessWidget {
     );
   }
 
-  Widget cardPaket(String bulan, String pertemuan, String harga) {
+  Widget cardPaket(String bulan, String pertemuan, String harga, String nama, String whatsapp) {
     return Container(
-      width: 250,
-      child: Card(
+      width: 280,
+      child: InkWell(
+        onTap: ()  async {
+          print("tertekan");
+await launch(Uri.encodeFull("https://api.whatsapp.com/send/?phone=$whatsapp&text=Halo kak $nama saya telah melakukan pemesanan paket belajar pada Aplikasi Jona dengan paket $bulan bulan $pertemuan kali pertemuan dengan harga Rp. $harga. mohon di proses ya. "));
+        },
+        child: Card(
           clipBehavior: Clip.antiAlias,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(24),
@@ -262,7 +270,9 @@ class DetailMentor extends StatelessWidget {
                 ),
               ),
             ),
-          )),
+          ))
+      )
+      ,
     );
   }
 }

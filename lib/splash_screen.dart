@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 
 void navigate_login(context){
     Timer(Duration(seconds: 5), () {
-      Navigator.of(context).popAndPushNamed("/home");
+      Navigator.of(context).popAndPushNamed("/login");
     });
   }
 
